@@ -1,6 +1,12 @@
 
 .noto-serif{
-  font-family: "Noto Serif", serif;
+  font-family: "Noto Serif";
+  font-optical-sizing: auto;
+}
+
+
+.inter> {
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
@@ -22,7 +28,22 @@
   color:rgba(137, 135, 161, 1)
 }
 
-/*headr Starts Here*/
+.orange {
+  color: rgba(233, 90, 8, 1);
+}
+
+
+
+.navbar, .banner, .plants {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/*header Starts Here*/
+
+.header{
+  margin-bottom: 130px;
+}
 .logo {
   max-height: 100px;
 }
@@ -43,13 +64,53 @@
   text-decoration: none;
 }
 
-.navbar, .banner {
-  max-width: 1140px;
-  margin: 0 auto;
+
+
+/*banner section starts herer*/
+
+.banner{
+  margin-top: 120px;
 }
+
+.banner-description{
+  max-height: 300px;
+  max-width: 570px;
+}
+
+.banner-heading {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.banner-paragraph {
+  font-size: 1.5rem;
+}
+
+.banner-img {
+  max-width: 570px;
+  max-height: 355px;
+}
+
+/*Our Plants section starts here*/
+
+.plants-heading{
+  font-size: 2rem;
+}
+.plants-description {
+  flex-direction: column;
+  justify-content: center;
+}
+.plants-paragraph {
+  font-size: 1.5rem;
+  justify-items: center;
+}
+
+
 
 
 /*responsivness*/
 @media screen and (max-width: 576px){
-  
+  .banner {
+    flex-direction: column-reverse;
+  }
 }
