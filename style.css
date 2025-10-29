@@ -1,15 +1,55 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 
 .noto-serif{
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+}
+
+/*Shared Style*/
+.display-flex {
+  display: flex;
+}
+
+.black {
+  color: black;
+}
+
+.dark-grey {
+  color: rgba(37, 36, 50, 1);
+}
+
+.grey{
+  color:rgba(137, 135, 161, 1)
+}
+
+/*headr Starts Here*/
+.logo {
+  max-height: 100px;
+}
+
+.navbar {
+  justify-content: space-between;
+}
+
+.navbar-items {
+  gap: 30px;
+}
+
+.navbar-item{
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.navbar, .banner {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+
+/*responsivness*/
+@media screen and (max-width: 576px){
+  
 }
