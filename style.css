@@ -32,6 +32,14 @@
   color: rgba(233, 90, 8, 1);
 }
 
+.primary-btn {
+  background-color: rgba(233, 90, 8, 1);
+  border: none;
+  cursor: pointer;
+  color: white;
+  padding: 10px 20px;
+  width: 90%;
+}
 
 
 .navbar, .banner, .plants {
@@ -95,6 +103,7 @@
 
 .plants-heading{
   font-size: 2rem;
+  text-align: center;
 }
 .plants-description {
   flex-direction: column;
@@ -102,9 +111,28 @@
 }
 .plants-paragraph {
   font-size: 1.5rem;
-  justify-items: center;
+  max-width: 880px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
+.flower-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.flowers-name {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.flowers-price {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
 
 
 
@@ -112,5 +140,9 @@
 @media screen and (max-width: 576px){
   .banner {
     flex-direction: column-reverse;
+  }
+
+  .flower-gallery {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
