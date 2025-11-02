@@ -42,9 +42,14 @@
 }
 
 
-.navbar, .banner, .plants {
+.navbar, .banner, .plants, .flower-plants {
   max-width: 1140px;
   margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  text-align: center;
 }
 
 /*header Starts Here*/
@@ -101,10 +106,7 @@
 
 /*Our Plants section starts here*/
 
-.plants-heading{
-  font-size: 2rem;
-  text-align: center;
-}
+
 .plants-description {
   flex-direction: column;
   justify-content: center;
@@ -134,8 +136,38 @@
   font-size: 1.2rem;
 }
 
+/*flower & plants section starts*/
 
+.flower-plants {
+  margin-top: 210px;
+  gap: 5rem;
+}
 
+.flower-store {
+  max-width: 597px;
+  max-height: 540px;
+}
+
+.image-container {
+  position: relative;
+}
+
+.badge {
+  max-width: 286px;
+  max-height: 286px;
+  position: absolute;
+  left: 300px;
+  top: -120px;
+}
+
+.flower-title{
+  text-align: left;
+}
+
+.list-description {
+  font-size: 1.4rem;
+  margin-top: 1.25rem;
+}
 /*responsivness*/
 @media screen and (max-width: 576px){
   .banner {
