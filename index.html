@@ -8,6 +8,7 @@
      @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
     </style>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="Inter">
     <!--header starts-->
@@ -18,13 +19,13 @@
                 <li class="navbar-item"><a class="nav-link dark-grey" href="">Home</a></li>
                 <li class="navbar-item"><a class="nav-link grey" href="">Shop</a></li>
                 <li class="navbar-item"><a class="nav-link grey" href="">About Us</a></li>
-                <li class="navbar-item"><a class="nav-link black" href=""> Cart ($56)</a></li>
+                <li class="navbar-item"><a class="nav-link black" href=""> <i class="fa-solid fa-cart-shopping"></i> Cart ($56)</a></li>
             </ul>
         </nav>
         <div class="banner display-flex">
             <div class="banner-description">
                 <h1 class="banner-heading noto-seri"> Alaways <span class="orange"> Fresh <br> Flowers</span> </h1>
-                <p class="paragraph-font grey">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+                <p class="grey">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
             </div>
             <img class="banner-img" src="./assets/hero-flower.png" alt="flower picture">
         </div>
@@ -157,12 +158,38 @@
                 <button type="submit"> Subscribe</button>
                 </form>
             </div>
-
-        </section>
-
-
+       </section>
     </main>
-    <footer>
+    <!--footer section starts here-->
+    <footer class="footer">
+        <div class="grey">
+           <img class="footer-logo" src="./assets/logo.png"> 
+           <p class="footer-paragraph">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+        </div>
+        <div class="grey">
+            <ul class="footer-items display-flex">
+                <li class="footer-item">Home</li>
+                <li class="footer-item">About Us</li>
+                <li class="footer-item">Blog</li>
+                <li class="footer-item">FAQ</li>
+                <li class="footer-item">Contact Us</li>
+            </ul>
+        </div>
+         <div class="grey">
+            <ul class="footer-items display-flex">
+                <li class="footer-item">Features</li>
+                <li class="footer-item">Pricing</li>
+                <li class="footer-item">Privacy Policy</li>
+                <li class="footer-item">Terms of Services</li>
+                <li class="footer-item">Help Center</li>
+            </ul>
+        </div>
+        <div class="display-flex social-media">
+            <a> <i class="fab fa-linkedin"></i></a>
+            <a> <i class="fab fa-youtube"></i></a>
+            <a> <i class="fa-brands fa-facebook"></i></a>
+            <a> <i class="fa-brands fa-x-twitter"></i></a>
+        </div>
 
     </footer>
     

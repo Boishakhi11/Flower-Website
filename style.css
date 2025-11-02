@@ -53,9 +53,9 @@
 }
 
 
-.navbar, .banner, .plants, .flower-plants, .latest-deals{
+.navbar, .banner, .plants, .flower-plants, .latest-deals, .footer {
   max-width: 1140px;
-  margin: 0 auto;s
+  margin: 0 auto;
 }
 
 .center {
@@ -273,6 +273,44 @@
   color: white;
 }
 
+/*footer section starts here*/
+.footer{
+  margin-top: 3.2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-logo {
+  max-width: 82px;
+  max-height: 135px;
+}
+
+.footer-items {
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.footer-item {
+  list-style: none;
+}
+
+.social-media {
+  gap: 1.5rem;
+}
+
+.fa-linkedin, .fa-facebook {
+  font-size: 30px;
+  color: rgb(9, 83, 211);
+}
+
+.fa-youtube {
+  font-size: 30px;
+  color: red;
+}
+
+.fa-x-twitter {
+  font-size: 30px;
+}
 
 /*responsivness*/
 @media screen and (max-width: 576px){
@@ -318,6 +356,12 @@
   height: 275px;
 }
 
-#email {
+#email{
   flex: 0;
+}
+
+.footer{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
 }
